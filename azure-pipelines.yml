@@ -2,12 +2,13 @@
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
- pool:  
-   name: MyPool  
 
 trigger:
-- master
-
+ - master
+    
+pool:
+   name: MyPool
+   
 resources:
 - repo: self
 
