@@ -6,8 +6,12 @@ terraform {
     }
   }
 }
+provider "azuread" {
+
+}
 
 provider "azurerm" {
+  subscription_id = "106d5df6-1872-4878-b909-419426175450"
 features {}
 }
 
