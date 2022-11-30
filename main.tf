@@ -36,7 +36,7 @@ resource "azurerm_container_group" "tfcg_test" {
     os_type = "Linux"
 
   container {
-    name = "wheatherapi"
+    name = "weatherapi"
     image = "jchrisarias/wheatherapi"
     cpu = "1"
     memory = "1"
