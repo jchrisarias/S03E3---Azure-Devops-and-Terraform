@@ -47,7 +47,7 @@ stages:
        set -e
 
        terraform init -input=false
-       terraform apply -imput=false -auto-approve
+       terraform apply -input=false -auto-approve
       name: 'RunTerraform'
       displayName: 'Run Terraform'
       env:
