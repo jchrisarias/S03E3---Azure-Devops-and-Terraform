@@ -15,6 +15,7 @@ provider "azurerm" {
 features {}
 }
 
+
 terraform {
     backend "azurerm" {
         resource_group_name  = "tf_rg_storage"
